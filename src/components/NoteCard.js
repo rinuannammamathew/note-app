@@ -15,7 +15,7 @@ class NoteCard extends Component {
         <span className="note-card-delete">
           <i className="material-icons">Close</i>
         </span>
-        <span className="note-card-edit" onClick={() => getNote()}>
+        <span className="note-card-edit" onClick={() => getNote(note.id)}>
           <i className="maretial-icons">mode-edit</i>
         </span>
       </div>
